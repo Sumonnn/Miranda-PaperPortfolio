@@ -2,35 +2,41 @@
     font-family: domain;
     src: url(./fonts/Domain.ttf);
 }
+
 @font-face {
     font-family: canopee;
     src: url(./fonts/Canopee.ttf);
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "gilroy";
 }
-html,body{
+
+html,
+body {
     width: 100%;
     height: 100%;
     background-color: #1B1B19;
 }
+
 /* ---------------------p1------------------------- */
-.main{
+.main {
     overflow-x: hidden;
 }
-.page1{
+
+.page1 {
     width: 100vw;
     height: 120vh;
     overflow: hidden;
     position: relative;
     background-color: #C1BAB0;
 }
-.page1>nav{
+
+.page1>nav {
     width: 100%;
     height: 90px;
     padding: 0 25px;
@@ -39,22 +45,26 @@ html,body{
     justify-content: space-between;
     border-bottom: 1px solid #222222;
 }
-.page1>nav>h5{
+
+.page1>nav>h5 {
     font-size: 16px;
     font-weight: 100;
     width: 30%;
     font-family: domain;
 }
-.page1>nav>i{
+
+.page1>nav>i {
     font-size: 18px;
     width: 30%;
     text-align: right;
 }
-.page1>nav>img{
+
+.page1>nav>img {
     height: 25px;
     width: 30%;
 }
-.elems{
+
+.elems {
     width: 100%;
     height: 380px;
     display: flex;
@@ -62,104 +72,123 @@ html,body{
     justify-content: space-between;
     padding: 40px 50px;
 }
-.elem1{
+
+.elem1 {
     width: 30%;
     height: 100%;
 }
-.elem1 .img-div{
+
+.elem1 .img-div {
     width: 100%;
     height: 50%;
     overflow: hidden;
     border: 1px solid #222222;
 }
-.elem3{
+
+.elem3 {
     width: 30%;
     height: 100%;
 }
-.elem3 .img-div{
+
+.elem3 .img-div {
     width: 100%;
     height: 50%;
     overflow: hidden;
     border: 1px solid #222222;
 }
-.img-div img{
+
+.img-div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: ease 0.5s;
 }
-.img-div:hover img{
+
+.img-div:hover img {
     scale: 1.2;
 }
-.elem2{
+
+.elem2 {
     width: 30%;
     height: 100%;
     text-align: center;
     border-left: 2px solid #989595;
     border-right: 2px solid #969393;
 }
-.elem1 h4{
+
+.elem1 h4 {
     margin-top: 15px;
     margin-bottom: 15px;
     font-family: canopee;
     font-size: 24px;
 }
-.elem1 h4 span{
+
+.elem1 h4 span {
     background-color: orangered;
     padding: 3px;
     font-size: 14px;
     border-radius: 5px;
     font-family: canopee;
 }
-.elem1 p{
+
+.elem1 p {
     font-family: domain;
     font-weight: 100;
     font-size: 18px;
     color: #434242;
 }
-.elem3 h4{
+
+.elem3 h4 {
     margin-top: 15px;
     margin-bottom: 15px;
     font-family: canopee;
     font-size: 24px;
 }
-.elem3 h4 span{
+
+.elem3 h4 span {
     background-color: orangered;
     padding: 3px;
     font-size: 14px;
     border-radius: 5px;
     font-family: canopee;
 }
-.elem3 p{
+
+.elem3 p {
     font-family: domain;
     font-weight: 100;
     font-size: 18px;
     color: #434242;
 }
-.elem2 h3{
+
+.elem2 h3 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.elem2 h2{
+
+.elem2 h2 {
     font-family: canopee;
-    font-size: 65px;    
+    font-size: 65px;
 }
-.elem2 h3{
+
+.elem2 h3 {
     font-family: domain;
     font-size: 40px;
     font-weight: 100;
 }
-.elem2 p{
+
+.elem2 p {
     font-family: domain;
     font-size: 20px;
     color: #434242;
     font-weight: 100;
 }
-.elem2 p>span{
+
+.elem2 p>span {
     font-family: canopee;
     font-weight: 900;
 }
-.page1>h1{
+
+.page1>h1 {
     background-color: #1B1B19;
     color: #C1BAB0;
     width: 96%;
@@ -171,8 +200,9 @@ html,body{
     margin-left: 2%;
     padding-left: 10px;
 }
+
 /* ---------------------------p2---------------------------- */
-.page2{
+.page2 {
     width: 100%;
     height: 150vh;
     display: flex;
@@ -181,63 +211,73 @@ html,body{
     background-color: #C1BAB0;
     padding: 90px 40px;
 }
-.page2 .page2-left{
+
+.page2 .page2-left {
     height: 100%;
     width: 33%;
     padding-right: 40px;
     border-right: 1px solid #4e4e4e;
 }
-.page2 .page2-left h2{
+
+.page2 .page2-left h2 {
     font-family: canopee;
     font-size: 6vw;
     text-align: center;
     line-height: 110px;
     font-weight: 100;
 }
-.page2 .page2-left h2 span{
+
+.page2 .page2-left h2 span {
     font-family: canopee;
     font-size: 10vw;
     font-weight: 200;
 }
-.page2 .page2-left img{
+
+.page2 .page2-left img {
     width: 100%;
     height: 50%;
     object-fit: cover;
     border: 1px solid #222222;
 }
-.page2 .page2-left p{
+
+.page2 .page2-left p {
     font-family: domain;
     font-size: 1.8vw;
     color: #2f2f2f;
     margin-top: 30px;
 }
-.page2 .page2-left p span{
+
+.page2 .page2-left p span {
     font-family: domain;
     padding: 8px 4px;
     background-color: #1B1B19;
     color: #C1BAB0;
-    
+
 }
-.page2 .page2-right{
-      height: 100%;
-      width: 67%;
-      padding: 0 40px;
+
+.page2 .page2-right {
+    height: 100%;
+    width: 67%;
+    padding: 0 40px;
 }
-.page2 .page2-right img{
+
+.page2 .page2-right img {
     width: 100%;
     height: 53%;
     object-fit: cover;
-    border: 1px solid #222222; 
+    border: 1px solid #222222;
 }
-.page2 .page2-right h2{
+
+.page2 .page2-right h2 {
     font-size: 120px;
     font-weight: 100;
     letter-spacing: -5px;
     line-height: 100px;
     font-family: canopee;
 }
+
 /* -----------------------p3------------------------ */
-.page3{
+.page3 {
     width: 100%;
     height: 60vh;
     display: flex;
@@ -245,7 +285,8 @@ html,body{
     justify-content: space-between;
     background-color: #C1BAB0;
 }
-.page3>h1{
+
+.page3>h1 {
     width: fit-content;
     font-size: 28vw;
     letter-spacing: -10px;
@@ -257,75 +298,83 @@ html,body{
     line-height: 400px;
     margin-left: 2%;
 }
-.page3>img{
+
+.page3>img {
     height: 90%;
     margin-right: 2%;
 }
+
 /* ------------------------------p4----------------------------- */
-.page4{
+.page4 {
     width: 100%;
     height: 135vh;
     display: flex;
     padding-top: 25px;
     background-color: #C1BAB0;
 }
-.page4 .page4-left{
+
+.page4 .page4-left {
     height: 100%;
     width: 65%;
     display: flex;
     flex-wrap: wrap;
-    /* background-color: red; */
 }
-.page4 .page4-left .page4-top-left{
+
+.page4 .page4-left .page4-top-left {
     width: 45%;
     height: 35%;
     padding: 35px;
-    /* margin-bottom: 25px; */
-    border-right: 1px solid  #4e4e4e;
-    /* background-color: yellow; */
+    border-right: 1px solid #4e4e4e;
 }
-.page4 .page4-left .page4-top-left>h2{
+
+.page4 .page4-left .page4-top-left>h2 {
     font-family: domain;
     font-size: 3.9vw;
     margin-bottom: 10px;
 }
-.page4 .page4-left .page4-top-left>h3{
+
+.page4 .page4-left .page4-top-left>h3 {
     font-family: domain;
     font-size: 3vw;
     line-height: 40px;
     margin-top: 20px;
     font-weight: 100;
 }
-.page4 .page4-left .page4-top-left>p{
+
+.page4 .page4-left .page4-top-left>p {
     font-family: domain;
     font-size: 1.2vw;
     margin-top: 30px;
     font-weight: 100;
 }
-.page4 .page4-left .page4-top-left p span{
+
+.page4 .page4-left .page4-top-left p span {
     font-family: canopee;
     font-weight: 900;
     font-size: 1.4vw;
 }
-.page4 .page4-left .page4-top-right{
+
+.page4 .page4-left .page4-top-right {
     width: 55%;
     height: 40%;
-    /* background-color: rgb(148, 148, 91); */
 }
-.page4 .page4-left .page4-top-right .img-div{
+
+.page4 .page4-left .page4-top-right .img-div {
     width: 80%;
     height: 50%;
     overflow: hidden;
     margin-left: 35px;
     border: 1px solid #4e4e4e;
 }
-.page4 .page4-left .page4-top-right>h2{
+
+.page4 .page4-left .page4-top-right>h2 {
     margin-left: 35px;
-    margin-top:10px;
+    margin-top: 10px;
     font-family: domain;
     font-size: 1.8vw;
 }
-.page4 .page4-left .page4-top-right>p{
+
+.page4 .page4-left .page4-top-right>p {
     margin-left: 35px;
     width: 70%;
     margin-top: 10px;
@@ -333,71 +382,276 @@ html,body{
     font-weight: 100;
     font-size: 1.3vw;
 }
-.page4 .page4-left>img{
+
+.page4 .page4-left>img {
     width: 94%;
     height: 60%;
     object-fit: cover;
     object-position: center;
     margin-left: 3%;
 }
-.page4 .page4-right{
+
+.page4 .page4-right {
     height: 100%;
     width: 35%;
     padding-left: 40px;
     padding-right: 15px;
     padding-top: 25px;
     border-left: 1px solid #4e4e4e;
-    /* background-color: aqua; */
 }
-.page4 .page4-right>h2{
-   font-family: domain;
-   font-size: 5.4vw;
-   /* font-weight: 100; */
-   line-height: 70px;
+
+.page4 .page4-right>h2 {
+    font-family: domain;
+    font-size: 5.4vw;
+    line-height: 70px;
 }
-.page4 .page4-right>h1{
+
+.page4 .page4-right>h1 {
     font-family: canopee;
     font-size: 13vw;
- }
- .page4 .page4-right>p{
+}
+
+.page4 .page4-right>p {
     margin-top: 59px;
     font-family: domain;
     font-size: 2.5vw;
     line-height: 2.4vw;
- }
- .page4 .page4-right .all-work{
+}
+
+.page4 .page4-right .all-work {
     padding: 3vw 8vw;
     margin-top: 29px;
     white-space: nowrap;
     display: flex;
     align-items: center;
     overflow: hidden;
-    /* background-color: red; */
     font-size: 3vw;
     font-weight: 900;
     border-radius: 50%;
     border: 1px solid #4e4e4e;
     cursor: pointer;
- }
- .page4 .page4-right .all-work>img{
-    transform:translateX(-220%);
+}
+
+.page4 .page4-right .all-work>img {
+    transform: translateX(-220%);
     transition: ease 0.5s;
- }
- .page4 .page4-right .all-work>h1{
+}
+
+.page4 .page4-right .all-work>h1 {
     font-family: canopee;
-    transform:translateX(-50%);
+    transform: translateX(-50%);
     transition: ease 0.5s;
 }
-.page4 .page4-right .all-work:hover img{
-    transform:translateX(50%);
+
+.page4 .page4-right .all-work:hover img {
+    transform: translateX(50%);
 }
-.page4 .page4-right .all-work:hover h1{
-    transform:translateX(100%);
-        
+
+.page4 .page4-right .all-work:hover h1 {
+    transform: translateX(100%);
+
 }
- /* ---------------------p5---------------------------------- */
- .page5{
+
+/* ---------------------p5---------------------------------- */
+.page5 {
     width: 100%;
-    height: 100vh;
+    min-height: 120vh;
+    padding-top: 1px;
     background-color: #C1BAB0;
- }
+}
+
+.page5 .page5-top-section {
+    width: 96%;
+    margin-left: 2%;
+    height: 25vh;
+    margin-top: 5vw;
+    border-top: 1px solid #1B1B19;
+    border-bottom: 1px solid #1B1B19;
+    display: flex;
+}
+
+.page5 .page5-top-section .elems {
+    width: 25%;
+    height: 100%;
+}
+
+.page5 .page5-top-section .elems .page5-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page5 .page5-top-section .elems .page5-text h4 {
+    font-family: domain;
+    font-size: 1.8vw;
+    font-weight: 100;
+}
+
+.page5 .page5-top-section .elems .page5-text h2 {
+    font-family: canopee;
+    font-size: 4vw;
+}
+
+.page5 .page5-top-section .elems h1 {
+    font-family: canopee;
+    font-size: 10vw;
+    font-weight: 100;
+}
+
+.page5 .page5-bottom-section {
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 3vw;
+    height: 95vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page5 .page5-bottom-section .page5-bottom-left {
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page5 .page5-bottom-section .page5-bottom-left .page5-bottom-left-top {
+    width: 100%;
+    height: 47%;
+    display: flex;
+}
+
+.page5 .page5-bottom-section .page5-bottom-left .page5-bottom-left-top>h1 {
+    font-family: canopee;
+    font-weight: 100;
+    font-size: 30.5vw;
+    line-height: 22.5vw;
+    letter-spacing: -15px;
+}
+
+.page5 .page5-bottom-section .page5-bottom-left .page5-bottom-left-top .page5-bottom-left-top-img {
+    width: 30%;
+    height: 100%;
+    border: 1px solid #1B1B19;
+}
+
+.page5 .page5-bottom-section .page5-bottom-left .page5-bottom-left-top .page5-bottom-left-top-img>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.page5 .page5-bottom-section .page5-bottom-left .page5-bottom-left-bottom {
+    width: 100%;
+    height: 47%;
+}
+
+.page5 .page5-bottom-section .page5-bottom-left .page5-bottom-left-bottom>h1 {
+    font-family: canopee;
+    font-weight: 100;
+    font-size: 30.5vw;
+    line-height: 22.5vw;
+    letter-spacing: -15px;
+}
+
+.page5 .page5-bottom-section .page5-bottom-right {
+    width: 49%;
+    height: 100%;
+    border: 1px solid #1B1B19;
+}
+
+.page5 .page5-bottom-section .page5-bottom-right>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* ---------------------p6--------------------------------- */
+.page6 {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 2%;
+    background-color: #C1BAB0;
+}
+
+.page6 .page6-top {
+    width: 96%;
+    margin-left: 2%;
+    height: 49%;
+    display: flex;
+}
+
+.page6 .page6-top .page6-top-img {
+    width: 26%;
+    height: 100%;
+    border: 1px solid #1B1B19;
+}
+.page6 .page6-top .page6-top-img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.page6 .page6-top>h1{
+    font-family:canopee;
+    font-size: 30.5vw;
+    line-height: 24vw;
+    font-weight: 100;
+    letter-spacing: -30px;
+}
+
+.page6 .page6-bottom {
+    width: 96%;
+    margin-left: 2%;
+    height: 49%;
+    display: flex;
+    justify-content: space-between;
+}
+.page6 .page6-bottom .page6-bottom-left{
+    width: 59%;
+    height: 100%;
+}
+.page6 .page6-bottom .page6-bottom-left>h1{
+    background-color: #1B1B19;
+    color: #C1BAB0;
+    font-family: canopee;
+    font-size: 25vw;
+    font-weight: 100;
+    letter-spacing: -20px;
+    line-height: 22vw;
+    margin-left: 0%;
+}
+.page6 .page6-bottom .page6-bottom-right{
+     width: 40%;
+     height: 45vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     padding: 0.5vw 1.8vw;
+}
+.page6 .page6-bottom .page6-bottom-right>p{
+    font-family: domain;
+    font-size: 2.4vw;
+    line-height: 2.5vw;
+    font-weight: 100;
+
+}
+.page6 .page6-bottom .page6-bottom-right p span{
+    font-family: domain;
+    border-bottom: 0.5px solid #1B1B19;
+}
+.page6 .page6-bottom .page6-bottom-right h2{
+    font-family: domain;
+    font-size: 2.4vw;
+    line-height: 2.5vw;
+    font-weight: 100;
+}
+.page6 .page6-bottom .page6-bottom-right h2 span{
+    font-family: domain;
+    font-size: 6vw;
+    line-height: 2vw;
+    font-weight: 100;
+}
