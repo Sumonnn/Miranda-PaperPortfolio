@@ -655,3 +655,177 @@ body {
     line-height: 2vw;
     font-weight: 100;
 }
+/* -------------------------p7-------------------------------- */
+.page7{
+    width: 100%;
+    min-height: 150vh;
+    position: relative;
+    padding-top: 1px;
+    background-color: #C1BAB0;
+}
+.page7 .page7-top{
+    width: 96%;
+    margin-left: 2%;
+    height: 50vh;
+    display: flex;
+    position: relative;
+    margin-top: 2vw;
+}
+.card{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    padding: 2vw 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #1B1B19;
+    background-color: #C1BAB0;
+}
+.card p{
+   font-family: "Domain";
+   font-size: 1.8vw;
+   line-height: 3vw;
+   font-weight: 100;
+   text-decoration: underline;
+}
+.card .card-information{
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+}
+.card .card-information>img{
+    width: 55px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid #1B1B19;
+}
+.card .card-information .card-name>h2{
+     font-family: domain;
+     font-size: 2.2vw;
+} 
+.card .card-information .card-name>p{
+    font-family: domain;
+    font-size: 1.5vw;
+    text-decoration: none;
+} 
+.card .card-information .card-name p>span{
+    font-family: domain;
+    font-size: 1.5vw;
+    text-decoration: none;
+    border-bottom: 1px solid #1B1B19;
+}
+.card::before{
+    content: "";
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    right: 3%;
+    bottom: 3%;
+    border-radius: 10px;
+    border: 2px dashed #1B1B19;
+}
+#card-1{
+    left: 0;
+    z-index: 1;
+}
+#card-2{
+    left: 20%;
+    z-index: 2;  
+}
+#card-3{
+    left: 40%;
+    z-index: 3; 
+}
+#card-4{
+    left: 60%;
+    z-index: 4; 
+}
+
+/* -------------p7-center------------------------------------- */
+.page7 .page7-center{
+    width: 96%;
+    margin-left: 2%;
+    height: 55vh;
+    margin-top: 4vw;
+    border-top: 1px solid #1B1B19;
+}
+.page7-scroll{
+    width: 96%;
+    height: 20vh;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #1B1B19;
+    border-bottom: 1px solid #1B1B19;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+.page7-scroll::-webkit-scrollbar{
+    display: none;
+}
+.page7-scroll>h1{
+    font-family: domain;
+    font-weight: 100;
+    font-size: 6vw;
+    line-height: 8vw;
+    white-space: nowrap;
+    animation-name: scroll;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.page7-scroll:hover h1{
+    animation-play-state: paused;
+}
+.page7-scroll h1>span{
+    font-family:canopee ;
+    background-color: #1B1B19;
+    color: #C1BAB0;
+    padding: 0 5px;
+}
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+    
+}
+.page7 .page7-footer{
+    width: 96%;
+    margin-left: 2%;
+    height: 10vh;
+    margin-top: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.page7 .page7-footer .footer1{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.page7 .page7-footer .footer1>h2{
+    font-family: canopee;
+    margin-left: 0.1vw
+}
+.page7 .page7-footer .footer1>p{
+    font-family: domain;
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+.page7 .page7-footer .footer2{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+.page7 .page7-footer .footer2>p{
+    font-family: canopee;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
